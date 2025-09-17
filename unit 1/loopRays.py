@@ -1,4 +1,10 @@
-numberList= [10,11,45,8,39,48,57,60,70,89,90]
+#first make list
+#second make a function that will go throught the list
+#third have it print the largest number
+
+
+
+numberList= [1,3,10,20,39,48,83,89,72,90]
 value=48
 def number(numberList, value):
         for x in numberList:
@@ -8,8 +14,13 @@ def number(numberList, value):
 
 #number(numberList,value)
 
-unorderList= [23,600,4,92,22,49]
+#unorderList= [23,600,4,92,22,49]
 
 
 
-print(unorderList[3:4])
+#print(unorderList[3:4])
+
+def loop():
+    while 1>=1:
+        print('block')
+loop()
