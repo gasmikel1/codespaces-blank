@@ -14,7 +14,7 @@ team_4=get_season_Results_By_team(2025,'BUF')
 team_5=get_season_Results_By_team(2025,'SF')
 team_6=get_season_Results_By_team(2025,'SEA')
 
-# print(team_1)
+print(team_1)
 # print(team_2)
 # print(team_3)
 # print(team_4)
@@ -29,15 +29,20 @@ team_6=get_season_Results_By_team(2025,'SEA')
 
 
 def pdCheck():
-        print("eneter number")
-        number=int (input())
+        print('give a number')
+        number=input()
         value=[]
-        calculate='q'
-        while calculate !=0:
-            values=(number)
-            print(values)
-            print("give #")
-            number=input()
+
+        while number != 'q':
+            value.append(int(number))
+            print(value)
+            print("please enter next number or type stop to end")
+            number= input()
         else:
+            print('error')
             print("calculate pd")
+            total = sum(value)
+            print(total)
+
+            #add all numbers in value list
 pdCheck()
