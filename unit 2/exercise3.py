@@ -1,7 +1,7 @@
 from helperFunction import  weeklyPlayerStats
 
-qb = weeklyPlayerStats(2024, "RB", 1)
-print(qb )
+qb = weeklyPlayerStats(2024, "WR",)
+print(qb)
 
 
 
