@@ -1,9 +1,9 @@
-from helper3 import weeklyPlayerStats,plot_weekly_player_stats,plot_player_stat
+from unit3.helper3 import weeklyPlayerStats,plot_weekly_player_stats,plot_player_stat
 import matplotlib.pyplot as plt
 
 
-stats = weeklyPlayerStats(2024, "QB", week=17)  
-plot_player_stat(stats, stat="Rushing_tds", top_n=3, title=" QB Rushing Yards tds (2024)", save_path="qb_passing_yards_2024.png"  )
+stats = weeklyPlayerStats(2024, "WR", week=17)  
+plot_player_stat(stats, stat="Rushing_tds", top_n=3, title=" WR Rushing Yards tds (2024)", save_path="qb_passing_yards_2024.png"  )
 print(stats)
 
 "X Worthy WR 3" 
